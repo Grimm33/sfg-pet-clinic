@@ -2,9 +2,11 @@ package ccbill.training.sfgpetclinic.services.map;
 
 import ccbill.training.sfgpetclinic.model.Owner;
 import ccbill.training.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

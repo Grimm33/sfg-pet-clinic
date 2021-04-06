@@ -1,11 +1,11 @@
 package ccbill.training.sfgpetclinic.services.map;
 
 import ccbill.training.sfgpetclinic.model.Vet;
-import ccbill.training.sfgpetclinic.services.CrudService;
+import ccbill.training.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap  extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap  extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

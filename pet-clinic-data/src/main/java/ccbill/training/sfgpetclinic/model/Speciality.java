@@ -4,6 +4,7 @@ public class Speciality extends BaseEntity {
 
     private String description;
 
+    //region Getters and Setters
     public String getDescription() {
         return description;
     }
@@ -11,4 +12,5 @@ public class Speciality extends BaseEntity {
     public void setDescription(String description) {
         this.description = description;
     }
+    //endregion
 }

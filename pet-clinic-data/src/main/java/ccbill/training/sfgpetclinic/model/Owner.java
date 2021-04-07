@@ -10,6 +10,7 @@ public class Owner extends Person {
     private String telephone;
     private Set<Pet> pets = new HashSet<>();
 
+    //region Getters and Setters
     public String getAddress() {
         return address;
     }
@@ -41,4 +42,5 @@ public class Owner extends Person {
     public void setPets(Set<Pet> pets) {
         this.pets = pets;
     }
+    //endregion
 }

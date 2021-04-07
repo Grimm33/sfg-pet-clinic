@@ -8,6 +8,7 @@ public class Visit extends BaseEntity {
     private String description;
     private Pet pet;
 
+    //region Getters and Setters
     public LocalDate getDate() {
         return date;
     }
@@ -31,4 +32,5 @@ public class Visit extends BaseEntity {
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+    //endregion
 }

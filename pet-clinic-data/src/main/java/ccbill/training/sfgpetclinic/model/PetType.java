@@ -4,6 +4,7 @@ public class PetType extends BaseEntity{
 
     private String name;
 
+    //region Getters and Setters
     public String getName() {
         return name;
     }
@@ -11,4 +12,5 @@ public class PetType extends BaseEntity{
     public void setName(String name) {
         this.name = name;
     }
+    //endregion
 }

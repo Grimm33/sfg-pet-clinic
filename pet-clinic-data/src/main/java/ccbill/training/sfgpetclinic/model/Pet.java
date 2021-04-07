@@ -9,6 +9,7 @@ public class Pet extends BaseEntity{
     private Owner owner;
     public LocalDate birthDate;
 
+    //region Getters and Setters
     public String getName() {
         return name;
     }
@@ -40,4 +41,5 @@ public class Pet extends BaseEntity{
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
+    //endregion
 }

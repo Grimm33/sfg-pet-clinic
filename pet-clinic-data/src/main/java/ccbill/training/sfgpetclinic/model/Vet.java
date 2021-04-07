@@ -7,6 +7,7 @@ public class Vet extends Person {
 
     private Set<Speciality> specialities = new HashSet<>();
 
+    //region Getters and Setters
     public Set<Speciality> getSpecialities() {
         return specialities;
     }
@@ -14,4 +15,5 @@ public class Vet extends Person {
     public void setSpecialities(Set<Speciality> specialities) {
         this.specialities = specialities;
     }
+    //endregion
 }

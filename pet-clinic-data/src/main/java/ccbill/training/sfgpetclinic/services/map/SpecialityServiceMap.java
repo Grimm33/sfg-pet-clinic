@@ -1,13 +1,13 @@
 package ccbill.training.sfgpetclinic.services.map;
 
 import ccbill.training.sfgpetclinic.model.Speciality;
-import ccbill.training.sfgpetclinic.services.SpecialitiesService;
+import ccbill.training.sfgpetclinic.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();

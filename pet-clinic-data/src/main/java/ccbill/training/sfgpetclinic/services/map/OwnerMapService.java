@@ -5,11 +5,13 @@ import ccbill.training.sfgpetclinic.model.Pet;
 import ccbill.training.sfgpetclinic.services.OwnerService;
 import ccbill.training.sfgpetclinic.services.PetService;
 import ccbill.training.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;

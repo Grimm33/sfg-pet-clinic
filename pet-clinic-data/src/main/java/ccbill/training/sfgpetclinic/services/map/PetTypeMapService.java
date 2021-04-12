@@ -2,11 +2,13 @@ package ccbill.training.sfgpetclinic.services.map;
 
 import ccbill.training.sfgpetclinic.model.PetType;
 import ccbill.training.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override

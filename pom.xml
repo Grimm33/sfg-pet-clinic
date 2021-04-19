@@ -28,18 +28,6 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>javax.xml.bind</groupId>-->
-<!--            <artifactId>jaxb-api</artifactId>-->
-<!--            <version>${jaxb.version}</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>core.sun.xml.bind</groupId>-->
-<!--            <artifactId>sxc-jaxb-core</artifactId>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
-
     <build>
         <plugins>
             <plugin>
